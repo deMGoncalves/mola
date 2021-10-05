@@ -1,0 +1,12 @@
+{
+	"name": "mola",
+	"private": "true",
+	"scripts": {
+		"start": "yarn workspace @mola/calc start"
+	},
+	"workspaces": {
+		"packages": [
+			"shared/*"
+		]
+	}
+}
